@@ -1,4 +1,4 @@
-package by.bsuir.lab1.task1;
+package by.bsuir.lab1.task1.tests;
 
 import by.bsuir.lab1.task1.calculators.ExpressionCalculator;
 
