@@ -1,7 +1,6 @@
 package by.bsuir.lab1.task1.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import by.bsuir.lab1.task1.calculators.ExpressionCalculator;
 import org.junit.jupiter.api.Test;
 
