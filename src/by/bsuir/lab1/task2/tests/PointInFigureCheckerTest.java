@@ -2,11 +2,8 @@ package by.bsuir.lab1.task2.tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.awt.geom.Rectangle2D;
-
 import by.bsuir.lab1.task2.models.PointInFigureChecker;
 
 class PointInFigureCheckerTest {
