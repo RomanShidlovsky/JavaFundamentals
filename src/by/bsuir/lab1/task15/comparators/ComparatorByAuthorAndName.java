@@ -1,7 +1,6 @@
 package by.bsuir.lab1.task15.comparators;
 
 import by.bsuir.lab1.task12.Book;
-
 import java.util.Comparator;
 
 public class ComparatorByAuthorAndName implements Comparator<Book> {

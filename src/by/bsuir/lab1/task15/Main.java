@@ -5,7 +5,6 @@ import by.bsuir.lab1.task15.comparators.ComparatorByAuthorAndName;
 import by.bsuir.lab1.task15.comparators.ComparatorByAuthorNamePrice;
 import by.bsuir.lab1.task15.comparators.ComparatorByName;
 import by.bsuir.lab1.task15.comparators.ComparatorByNameAndAuthor;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
