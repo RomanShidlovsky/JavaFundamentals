@@ -1,5 +1,7 @@
 package by.bsuir.lab1.task12;
 
+import java.util.Objects;
+
 public class Book {
     private String title;
     private String author;
@@ -24,16 +26,16 @@ public class Book {
     }
 
     @Override
-    public boolean equals(Object object) {
-        if (object instanceof Book book){
-            return this.title.equals(book.title) && this.author.equals(book.author);
-        }
-        return false;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return price == book.price && title.equals(book.title) && author.equals(book.author);
     }
 
     @Override
     public int hashCode() {
-        return price * 14 + author.hashCode() * 15 + title.hashCode() +798;
+        return Objects.hash(title, author, price);
     }
 
     @Override
